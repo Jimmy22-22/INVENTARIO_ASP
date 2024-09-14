@@ -1,0 +1,74 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #f39c12;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #87CEFA;
+    color: #ecf0f1;
+}
+
+header {
+    background-color: #2980b9;
+    color: #fff;
+}
+
+.card {
+    background-color: #00BFFF;
+    border-color: #1E90FF;
+}
+
+table {
+    background-color: #ADD8E6;
+    border: 1px solid #B0E0E6;
+}
+
+th {
+    background-color: #2c3e50;
+    color: white;
+}
+
+td {
+    background-color: #ffffff;
+    color: #2c3e50;
+}
+
+.btn {
+    background-color: #f39c12;
+    color: white;
+    border-color: #f39c12;
+}
+
+    .btn:hover {
+        background-color: #e67e22;
+        border-color: #e67e22;
+    }
+
+.inventario-text {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 50px;
+}
+
+.inventario-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 20px;
+}
